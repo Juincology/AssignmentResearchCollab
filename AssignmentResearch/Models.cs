@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AssignmentResearch.Models
 {
-    public class ResourceData
+    public class ResourceData//asdfg
     {
         
         public List<non_portable> non_portable { get; set; }
