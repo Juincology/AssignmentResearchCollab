@@ -1,0 +1,85 @@
+﻿
+  {
+    "non_portable": [
+      {
+        "NameOfGamingEquipments": "Playstation 4",
+        "ResourceId": 1,
+        "RentalPrice": 200,
+        "DeliveryMode": "Hand Carry",
+        "quantityOfCables": 2,
+        "TypeOfCable": "Micro USB for controller and HDMI for display",
+        "Accessories": "2 wireless Dualshock 4 controllers"
+      },
+      {
+        "NameOfGamingEquipments": "Xbox One",
+        "ResourceId": 2,
+        "RentalPrice": 200,
+        "DeliveryMode": " Hand Carry",
+        "quantityOfCables": 2,
+        "TypeOfCable": " Micro USB cable for controller and HDMI cable for display",
+        "Accessories": "batteries for controller"
+      },
+      {
+        "NameOfGamingEquipments": "Playstation 3",
+        "ResourceId": 3,
+        "RentalPrice": 120,
+        "DeliveryMode": "delivery via deliveryman",
+        "quantityOfCables": 1,
+        "TypeOfCable": "HDMI cable for display",
+        "Accessories": "Wireless dualshock 3 controller for Playstation 3"
+      }
+
+    ],
+    //portable gaming equipments data
+    "Portable": [
+      {
+        "NameOfGamingEquipments": "Nintendo 3DS",
+        "ResourceId": 4,
+        "RentalPrice": 50,
+        "DeliveryMode": "Hand carry",
+        "sizeOfScreen": "Top: 4.88 Bottom: 4.18",
+        "quantityOfCartridges": 1,
+        "CartridgeName": "Super Mario",
+        "touchScreenFunction": true
+      },
+      {
+        "NameOfGamingEquipments": "Sony Playstation Vita",
+        "ResourceId": 5,
+        "RentalPrice": 70,
+        "DeliveryMode": "Self Pick Up",
+        "sizeOfScreen": "5 inches",
+        "quantityOfCartridges": 2,
+        "CartridgeName": "Powerpuff Girls and GTA ",
+        "touchScreenFunction": true
+      },
+      {
+        "NameOfGamingEquipments": "Nintendo 3DS XL",
+        "ResourceId": 6,
+        "RentalPrice": 40,
+        "DeliveryMode": "Self Pick Up",
+        "sizeOfScreen": "Top: 4.88 bottom: 4.18 ",
+        "quantityOfCartridges": 1,
+        "CartridgeName": "Ridge Racer",
+        "touchScreenFunction": true
+      }
+    ],
+    // Booking time and date data
+    "Booking": [
+
+      {
+        "bookingDate": "20161221",
+        "bookingid": "1"
+      },
+
+      {
+        "bookingDate": "20160516",
+        "bookingid": "2"
+      },
+
+      {
+        "bookingDate": "20170120",
+        "bookingid": "3"
+      }
+    ],
+    "resourceType": [ "Portable", "non_portable" ]
+  }
